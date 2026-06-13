@@ -51,7 +51,7 @@ footer{
     margin-top: 30px;
 }
 body {
-    background-image: url("images/test1.jpg");
+    background-image: url("test1.jpg");
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
