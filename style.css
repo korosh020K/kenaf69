@@ -6,7 +6,7 @@ body{
 }
 
 nav{
-    background: #0077cc;
+    background: #000000;
     padding: 15px;
 }
 
@@ -22,7 +22,7 @@ h1{
 }
 
 button{
-    background: #0077cc;
+    background: #000000;
     color: white;
     border: none;
     padding: 10px 20px;
@@ -31,7 +31,7 @@ button{
 }
 
 button:hover{
-    background: #005fa3;
+    background: #000000;
 }
 
 .card{
@@ -57,7 +57,7 @@ body {
     background-position: center;
 }
 .btn{
-    background: #2563eb;
+    background: #000000;
     color: white;
     border: none;
     padding: 15px 30px;
@@ -69,7 +69,7 @@ body {
 }
 
 .btn{
-    background: linear-gradient(45deg,#2563eb,#06b6d4);
+    background: linear-gradient(45deg,#000000,#06b6d4);
 }
 img{
     width: 300px;
@@ -117,4 +117,21 @@ nav{
     top: 0;
     width: 100%;
     z-index: 1000;
+}
+
+.services{
+  display:flex;
+  gap:20px;
+  justify-content:center;
+  margin-top:40px;
+  flex-wrap:wrap;
+}
+
+.card{
+  background:white;
+  padding:20px;
+  width:250px;
+  border-radius:15px;
+  box-shadow:0 0 10px rgba(0,0,0,0.2);
+  text-align:center;
 }
