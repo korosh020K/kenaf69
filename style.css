@@ -149,3 +149,20 @@ nav{
 .btn:hover{
     background-color: #0056b3;
 }
+
+.gallery{
+    display:flex;
+    flex-wrap:wrap;
+    gap:20px;
+    justify-content:center;
+}
+
+.gallery img{
+    width:300px;
+    border-radius:15px;
+    transition:0.3s;
+}
+
+.gallery img:hover{
+    transform:scale(1.05);
+}
