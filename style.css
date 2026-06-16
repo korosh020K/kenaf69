@@ -205,3 +205,45 @@ img{
     }
 
 }
+
+.menu-btn{
+    display:none;
+    padding:10px;
+    font-size:20px;
+}
+
+@media (max-width:768px){
+
+    .menu-btn{
+        display:block;
+    }
+
+    #menu{
+        display:none;
+    }
+
+    #menu.show{
+        display:block;
+    }
+
+    #menu a{
+        display:block;
+        margin:10px 0;
+    }
+
+}
+
+@media (max-width:768px){
+
+  nav{
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+  }
+
+  nav a{
+    font-size:20px;
+    padding:10px;
+  }
+
+}
